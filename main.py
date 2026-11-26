@@ -4,7 +4,7 @@
 Pure stdlib Python (zlib, struct, binascii, os). Renders a 1024x1024 PNG
 with a hand-drawn 5x7 bitmap font and simple vector shapes. Deterministic:
 no clock, no randomness, no network. Run: python3 main.py
-Output: $MAKEFUN_OUTPUT_DIR/output.png (default ./out/output.png).
+Output: $MAKEFUN_OUTPUT_DIR/entry.png (default ./out/entry.png).
 """
 import binascii
 import os
@@ -494,9 +494,9 @@ def main():
             os.remove(p)
     build()
     data = chunk_png()
-    with open(os.path.join(outdir, "output.png"), "wb") as f:
+    with open(os.path.join(outdir, "entry.png"), "wb") as f:
         f.write(data)
-    print("wrote %s (%d bytes)" % (os.path.join(outdir, "output.png"), len(data)))
+    print("wrote %s (%d bytes)" % (os.path.join(outdir, "entry.png"), len(data)))
 
 
 if __name__ == "__main__":

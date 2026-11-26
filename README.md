@@ -14,7 +14,7 @@ Eight stories, each with a kicker, a big headline, a short subhead and a small d
 python3 main.py
 ```
 
-Writes `$MAKEFUN_OUTPUT_DIR/output.png` (default `./out/output.png`): 1024x1024, well under the 1 MiB cap. Pure Python 3.13 standard library (zlib + struct + binascii only) — no Pillow, no numpy, no network, no clock, no randomness. Two runs write byte-identical output (verified: sha256 `3f8f9549aa85e2fbe670f8e4229b38d35daf51a60ca054b1693276b3daf8cfdc`).
+Writes `$MAKEFUN_OUTPUT_DIR/entry.png` (default `./out/entry.png`): 1024x1024, well under the 1 MiB cap. Pure Python 3.13 standard library (zlib + struct + binascii only) — no Pillow, no numpy, no network, no clock, no randomness. Two runs write byte-identical output (verified: sha256 `3f8f9549aa85e2fbe670f8e4229b38d35daf51a60ca054b1693276b3daf8cfdc`).
 
 ---
 
