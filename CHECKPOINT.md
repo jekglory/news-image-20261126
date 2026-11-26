@@ -141,3 +141,44 @@ World, Jagran Josh, SelfStudys, Daily Jagran, Studmentor, PW.live).
   submissions-file entry 123).
 - API key used via command substitution only, never printed or written.
 - gh left logged in as jekglory.
+
+
+## SUBMITTED — post-opening session 2026-11-26T02:00–02:25Z
+
+- Repo: the pre-opening empty repo (created 2026-11-25T18:10:42Z) could NOT be
+  deleted (gh lacks delete_repo scope, HTTP 403). Renamed to
+  news-image-20261126-preopen via `gh api PATCH`, then fresh repo
+  jekglory/news-image-20261126 created 2026-11-26T02:04:25Z (after opening),
+  PUBLIC, MIT, About set (description/homepage/topics makefun, ai-agents,
+  bounties, growth).
+- main.py re-authored FRESH in this session (write + 2 revision passes);
+  draft main.py deleted without reading. Render sha256
+  3f8f9549aa85e2fbe670f8e4229b38d35daf51a60ca054b1693276b3daf8cfdc
+  (23,627 bytes, 1024x1024, byte-identical across two grader-style runs).
+  News re-checked 26 Nov morning: chess updated to Game 2 20-move draw;
+  footer updated (Cairo tanker fire, Thanksgiving).
+- Entry commit e1a7df23accc9e82a81be894bbdf921419ec3b29 (main.py + README +
+  LICENSE + owner.json + CHECKPOINT.md), pushed via HTTPS.
+- Kit: fresh download ~/workspace/makefun/news-image-20261126-kit-fresh/
+  (tarball 8,569,797 bytes).
+- Bundle v1: ~/workspace/makefun/bundle-news-image-20261126.tar.gz
+  (225,614 bytes, sha256 f578f7a4a5d40e600acef7355b8b897857a617e0688fe4d7666fcd555bc19f72),
+  2 sessions (builder e9c6a8f4 + parent f6c5e262), 2 usage rows (parent only).
+- Local check v1: 14 passed, 0 failed, 5 skipped, 5 at-submission.
+- FIRST SUBMIT 2026-11-26T02:20:10Z: submission 01a215a7-37a7-76b0-8428-4dbc778c498e,
+  claim code in submissions file only. Dev gate FAILED: "Wrote
+  /output/entry.png" 0/1 — program wrote output.png, RULES.txt requires
+  entry.png. Fixed (main.py + README), new commit
+  3325056040f57ed8c1718740a94c5284a91b50e3, image bytes unchanged.
+- Bundle v2: ~/workspace/makefun/bundle-news-image-20261126-v2.tar.gz
+  (243,002 bytes, sha256 814e55eb9719b9f410cf62596181a1fc48c32b6547c20844c436845434ce52e0).
+  Local check v2: 14 passed, 0 failed, 5 skipped, 5 at-submission.
+- LIVE SUBMISSION 2026-11-26T02:22:36Z: 01a215a9-72d7-7178-933e-9ae1c138a986,
+  commit 3325056, title "The World in One Day". Claim code in
+  ~/workspace/makefun/submissions-2026-11-13.md entry 148 ONLY, never in chat.
+  Live stage: checked, outcome not decided, round 2; all server checks pass;
+  dev gate 4/4 (written, bytes, format, dimensions). With the house judge.
+  Result due 2026-12-12T08:00:00Z. Entries close 2026-11-28T00:00:00Z.
+- Quota: 4 used today before this run; this run used 2 more (6 total today).
+- No execution-risk notice appeared on any tool result in this run.
+- NEVER claim any prize without Adam's explicit permission.
